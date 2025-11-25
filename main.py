@@ -43,7 +43,7 @@ def openFile(fileName, mode):
             valid = 1  #File opened successfully
         except:
             print(f"ERROR -- There is an issue with file {fileName}. Please reenter:")
-            fileName = input("Enter the file name: ")
+            fileName = input("Enter the file name (ip_list.txt): ")
     return file
 
 
